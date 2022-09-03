@@ -1,18 +1,21 @@
 <template>
   <HeaderSec />
-  <main className="page-wrapper-two">
-
+  <main class="page-wrapper-two">
+    <BannerSec />
   </main>
 </template>
 
 <script>
 
-import HeaderSec from './header/HeaderSec.vue';
+import HeaderSec from './components/header/HeaderSec.vue';
+import BannerSec from './pages/BannerSec.Vue'
+
 
 export default {
   name: 'HomePage',
   components: {
-    HeaderSec
+    HeaderSec,
+    BannerSec,
   }
 }
 </script>
