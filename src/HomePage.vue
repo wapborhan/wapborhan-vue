@@ -1,5 +1,8 @@
 <template>
   <HeaderSec />
+  <main className="page-wrapper-two">
+
+  </main>
 </template>
 
 <script>
