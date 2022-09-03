@@ -21,7 +21,7 @@
             </span>
 
             <div class="button-area">
-
+              <BannerSocial />
             </div>
           </div>
         </div>
@@ -31,8 +31,13 @@
 </template>
 
 <script>
+import BannerSocial from "./BannerSocial.vue"
 export default {
-  name: 'BannerSec'
+  name: 'BannerSec',
+  components: {
+    BannerSocial
+  }
+
 }
 </script>
 
