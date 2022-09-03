@@ -1,15 +1,15 @@
 <template>
-  <HomeSection />
+  <HomePage />
 </template>
 
 <script>
 
-import HomeSection from './components/Home.vue';
+import HomePage from './components/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
-    HomeSection
+    HomePage
   }
 }
 </script>
