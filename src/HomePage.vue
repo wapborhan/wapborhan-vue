@@ -8,14 +8,15 @@
 <script>
 
 import HeaderSec from './components/header/HeaderSec.vue';
-import BannerSec from './pages/BannerSec.Vue'
+import BannerSec from './pages/BannerSec.vue'
+
 
 
 export default {
   name: 'HomePage',
   components: {
     HeaderSec,
-    BannerSec,
+    BannerSec
   }
 }
 </script>
