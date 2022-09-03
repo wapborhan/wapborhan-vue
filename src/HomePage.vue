@@ -8,7 +8,7 @@
 <script>
 
 import HeaderSec from './components/header/HeaderSec.vue';
-import BannerSec from './pages/BannerSec.vue'
+import BannerSec from './pages/banner/BannerSec.vue'
 
 
 
